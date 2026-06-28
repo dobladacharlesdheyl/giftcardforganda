@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aesthetic TikTok Edit</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cormorant+Garamond:wght@500;700&family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#f3ebe7;
+font-family:Poppins,sans-serif;
+overflow:hidden;
+}
+
+.phone{
+
+width:390px;
+height:844px;
+position:relative;
+
+background:
+linear-gradient(rgba(255,255,255,.1),rgba(255,255,255,.1)),
+url("https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80");
+
+background-size:cover;
+background-position:center;
+overflow:hidden;
+
+box-shadow:0 30px 60px rgba(0,0,0,.25);
+
+}
+
+.phone::before{
+
+content:"";
+position:absolute;
+inset:0;
+
+background:
+linear-gradient(to top,
+rgba(0,0,0,.55),
+rgba(0,0,0,.15),
+rgba(255,255,255,.15));
+
+backdrop-filter:blur(2px);
+
+}
+
+.paper{
+
+position:absolute;
+background:#fdf8f1;
+padding:12px;
+border-radius:4px;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,.15);
+
+transform:rotate(-4deg);
+
+}
+
+.paper img{
+
+width:100%;
+display:block;
+
+}
+
+.note{
+
+font-family:Caveat;
+font-size:22px;
+color:#4d3c36;
+
+}
+
+.title{
+
+position:absolute;
+left:35px;
+bottom:260px;
+z-index:2;
+
+color:white;
+
+}
+
+.title h1{
+
+font-size:72px;
+font-family:"Cormorant Garamond";
+
+font-weight:700;
+
+line-height:65px;
+
+}
+
+.title span{
+
+font-size:55px;
+font-family:Caveat;
+
+display:block;
+margin-top:-10px;
+
+}
+
+.subtitle{
+
+margin-top:20px;
+font-size:15px;
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+}
+
+.polaroid{
+
+position:absolute;
+width:140px;
+background:white;
+padding:10px 10px 25px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.25);
+
+z-index:2;
+
+}
+
+.polaroid img{
+
+width:100%;
+
+}
+
+.one{
+
+top:60px;
+right:25px;
+transform:rotate(8deg);
+
+}
+
+.two{
+
+bottom:120px;
+left:25px;
+transform:rotate(-8deg);
+
+}
+
+.sticker{
+
+position:absolute;
+font-size:28px;
+animation:float 5s ease-in-out infinite;
+z-index:3;
+
+}
+
+.s1{
+top:90px;
+left:70px;
+}
+
+.s2{
+
+bottom:260px;
+right:120px;
+
+animation-delay:1s;
+
+}
+
+.s3{
+
+top:350px;
+left:35px;
+
+animation-delay:2s;
+
+}
+
+.quote{
+
+position:absolute;
+bottom:70px;
+left:35px;
+right:35px;
+
+text-align:center;
+
+color:white;
+
+font-size:14px;
+letter-spacing:1px;
+
+line-height:1.7;
+
+z-index:3;
+
+}
+
+.tape{
+
+position:absolute;
+width:60px;
+height:18px;
+
+background:rgba(255,255,255,.45);
+
+backdrop-filter:blur(3px);
+
+transform:rotate(-20deg);
+
+}
+
+.t1{
+top:-10px;
+left:40px;
+}
+
+.t2{
+
+top:-10px;
+right:40px;
+
+}
+
+.sparkle{
+
+position:absolute;
+width:4px;
+height:4px;
+
+background:white;
+
+border-radius:50%;
+
+box-shadow:
+0 0 10px white,
+0 0 20px white;
+
+animation:twinkle 2s infinite;
+
+}
+
+@keyframes float{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+}
+
+@keyframes twinkle{
+
+50%{
+opacity:.2;
+transform:scale(.4);
+}
+
+100%{
+opacity:1;
+}
+
+}
+
+.zoom{
+
+animation:zoom 12s ease-in-out infinite alternate;
+
+}
+
+@keyframes zoom{
+
+from{
+transform:scale(1);
+}
+
+to{
+transform:scale(1.08);
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="phone">
+
+<div class="zoom">
+
+<div class="polaroid one">
+<div class="tape t1"></div>
+
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80">
+
+</div>
+
+<div class="polaroid two">
+
+<div class="tape t2"></div>
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80">
+
+</div>
+
+</div>
+
+<div class="paper" style="top:35px;left:25px;width:170px;z-index:3;">
+
+<div class="note">
+
+some moments become your forever ♡
+
+</div>
+
+</div>
+
+<div class="title">
+
+<h1>life</h1>
+
+<span>lately</span>
+
+<div class="subtitle">
+
+slow days<br>
+
+soft memories<br>
+
+grateful heart
+
+</div>
+
+</div>
+
+<div class="quote">
+
+Collect beautiful moments ✿<br>
+
+Every day becomes a memory worth keeping.
+
+</div>
+
+<div class="sticker s1">🤍</div>
+
+<div class="sticker s2">✨</div>
+
+<div class="sticker s3">🫶</div>
+
+<div class="sparkle" style="top:130px;left:230px;"></div>
+<div class="sparkle" style="top:280px;right:60px;"></div>
+<div class="sparkle" style="bottom:190px;left:100px;"></div>
+<div class="sparkle" style="bottom:320px;right:150px;"></div>
+
+</div>
+
+</body>
+</html>
